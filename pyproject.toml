@@ -1,0 +1,19 @@
+[project]
+name = "clipbro"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "av<16",
+    "cloudinary>=1.47.0",
+    "faster-whisper>=1.2.1",
+    "google-genai>=3.0.0",
+    "imageio-ffmpeg>=0.8.1",
+    "mediapipe>=1.2.2",
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "pyannote-audio>=4.0.7",
+    "python-dotenv>=1.2.4",
+    "static-ffmpeg>=3.0",
+    "yt-dlp>=2026.10.26",
+]
